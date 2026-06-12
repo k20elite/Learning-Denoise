@@ -77,9 +77,3 @@ AudioCleaner/
   requirements.txt  # Dependencies Python
   setup.ps1         # Setup nhanh trên Windows
 ```
-
-## Ghi chú
-
-- Thuật toán spectral gating, **không phải** model AI pretrained.
-- Chất lượng tốt cho noise đơn giản / speech; noise phức tạp có thể còn artifact.
-- `venv/` không commit — đã có trong `.gitignore`.
