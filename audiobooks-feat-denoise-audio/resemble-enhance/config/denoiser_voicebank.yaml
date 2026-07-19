@@ -1,0 +1,10 @@
+batch_size_per_gpu: 4
+training_seconds: 2.0
+nj: 0
+max_steps: 50000
+warmup_steps: 200
+min_lr: 1.0e-5
+max_lr: 1.0e-4
+fg_dir: data/voicebank/fg/train
+bg_dir: data/voicebank/bg/train
+rir_dir: data/voicebank/rir

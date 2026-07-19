@@ -1,0 +1,13 @@
+wav_rate: 44100
+n_fft: 2048
+win_size: 2048
+hop_size: 420
+num_mels: 128
+batch_size_per_gpu: 4
+training_seconds: 2.0
+fg_dir: D:\SLP301\audiobooks-feat-denoise-audio\resemble-enhance\data\voicebank\fg\train
+bg_dir: D:\SLP301\audiobooks-feat-denoise-audio\resemble-enhance\data\voicebank\bg\train
+rir_dir: D:\SLP301\audiobooks-feat-denoise-audio\resemble-enhance\data\voicebank\rir
+mix_alpha_range:
+- 0.2
+- 0.8

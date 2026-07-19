@@ -1,0 +1,10 @@
+# Local training data / build artifacts (keep scripts + runs committed)
+/data/**/*.wav
+/dist
+/build
+/*.egg-info
+/flagged
+version.py
+__pycache__
+model_repo
+pretrained/**/*.pt

@@ -5,3 +5,13 @@ __pycache__/
 .env
 .venv/
 venv/
+
+# Resemble / VoiceBank large artifacts
+audiobooks-feat-denoise-audio/data/datasets/**
+audiobooks-feat-denoise-audio/resemble-enhance/data/voicebank/**/*.wav
+audiobooks-feat-denoise-audio/resemble-enhance/pretrained/**/*.pt
+audiobooks-feat-denoise-audio/resemble-enhance/**/__pycache__/
+audiobooks-feat-denoise-audio/resemble-enhance/**/*.egg-info/
+!audiobooks-feat-denoise-audio/data/datasets/README.md
+!audiobooks-feat-denoise-audio/resemble-enhance/data/voicebank/README.md
+!audiobooks-feat-denoise-audio/resemble-enhance/pretrained/README.md
